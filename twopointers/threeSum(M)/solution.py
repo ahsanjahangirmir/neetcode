@@ -17,7 +17,9 @@ class Solution:
                     res.add((nums[i], nums[l], nums[r]))  
                     l += 1
 
-                if threeSum < 0: l += 1 
-                else: r -= 1
+                if threeSum < 0: 
+                    l += 1 
+                else: 
+                    r -= 1
         
         return [list(tup) for tup in res]

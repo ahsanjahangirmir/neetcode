@@ -10,7 +10,7 @@ Input Format
 
 code = [5,7,1,4] k = 3
 
-Constraints
+Constraints:
 
 n == code.length
 1 <= n <= 100
